@@ -1,0 +1,102 @@
+.constellation-modal-container {
+  margin: 2rem;
+  margin-bottom: 1rem;
+  width: 66vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.constellation-row-container {
+  height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 2rem;
+}
+
+.constellation-row-container::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.constellation-row {
+  // margin-bottom: 2rem;
+  padding: 0.5rem 0.4rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+}
+
+.constellation-thumbnail-container {
+  background-color: $constellation-thumbnail-container;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.constellation-thumbnail {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 1rem;
+}
+
+.constellation-title {
+  // position: absolute;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.star-list-container {
+  background-color: $star-list-container;
+  width: 84%;
+  display: flex;
+  padding: 1rem;
+  padding-bottom: 0;
+  border-radius: 1rem;
+  overflow-x: scroll;
+  flex-wrap: nowrap; /* 요소들이 가로로 줄 바꿈되지 않도록 설정 */
+  gap: 1rem;
+}
+
+.star-list-container::-webkit-scrollbar {
+  height: 1.2rem; /* 스크롤바 너비 조절 */
+}
+
+.star-image-container {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  // margin-right: 1rem; /* 각 이미지 컨테이너 간 간격을 조절합니다. */
+}
+
+.star-image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.constellation_main_buttons_box {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.constellation-main-button {
+  height: 6rem;
+  cursor: pointer;
+}
+
+.border-radius {
+  border-radius: 1rem;
+  overflow: hidden;
+}
