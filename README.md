@@ -3217,8 +3217,6 @@ render() {
 
 > 갤러리 형식의 사진 기반 SNS 서비스 👉[https://byeoldam.site](https://byeoldam.site)
 
-(PPT 맨 첫 페이지 혹은 우리 서비스 홈 화면 페이지 보여주기)
-
 ![Untitled](Untitled.png)
 
 ## 📖 Description
